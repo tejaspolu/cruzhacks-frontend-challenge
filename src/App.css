@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body {
+  background-color: #081620;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #E8F0FF;
+}
+
+.App-header {
+  height: 8vh;
+  background-color: #061118;
+  display: flex;
+  align-items: center;
+}
+
+.App-logo {
+  width: 50px;
+  margin: 0 10px;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10vh 0;
+  text-align: center;
+}
+
+.Title {
+  font-size: 40px;
+  padding-bottom: 1vh;
+}
+
+.Row {
+  display: flex;
+  justify-content: space-between;
+  width: 45vw;  /* Adjusted width to be wider */
+  margin: 0 1vw;
+  gap: 0.5vw;
+}
+
+.Nav-arrows {
+  height: 60px;
+  transition: opacity 0.5s ease;
+}
+
+.Nav-arrows:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.Content-Box {
+  border-radius: 40px;
+  padding-bottom: 5vh;
+  border: 3px solid #7EE8FA;
+  box-shadow: 0 0 6px #7EE8FA;
+  width: 100%;  /* Ensure it expands to fill the .Row container */
+}
+
+.Day-schedule {
+  text-shadow: 0 4px 8px rgba(232, 240, 255, 0.25);
+}
+
+.event-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.time, .event {
+  text-shadow: 0 4px 8px rgba(232, 240, 255, 0.25);
+  padding: 20px;
+  border: 1px solid #7EE8FA;
+}
+
+.tooltip-container {
+  background-color: #17384F;
+  border-radius: 6px;
+  padding: 20px;
+  border: 1px solid #7EE8FA;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-field {
+  border: 1px solid #7EE8FA;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.register-button {
+  background-color: #17384F;
+  border: 1px solid #7EE8FA;
+  border-radius: 12px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #142f43;
+}
+
+.register-button:active {
+  box-shadow: 0 2px #142f43;
+  transform: translateY(1px);
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 800px) {
+  .Title {
+    font-size: 22px;
+  }
+
+  .Row {
+    flex-direction: column;
+    gap: 5vh;
+    width: 95vw; /* Increased width for smaller screens */
+  }
+
+  .Nav-arrows {
+    height: 40px;
+    margin-top: 5vh;
+  }
+
+  .Content-Box {
+    width: 95vw; /* Increased width for smaller screens */
+  }
+
+  .Day-schedule, .event-table th, .event-table td {
+    font-size: 18px;
+  }
+
+  .input-field {
+    width: 100%;
+  }
+
+  .tooltip-container {
+    width: 90vw; /* Adjusted tooltip width for responsiveness */
+    max-width: 300px;
+  }
+}
+
+/* .event:hover {
+  cursor: pointer;
+} */
+
+.clickable {
+  transition: opacity 0.5s ease;
+}
+
+.clickable:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.clickable-event .event:hover {
+  opacity: 0.8;
+}
