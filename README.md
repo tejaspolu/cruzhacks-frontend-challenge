@@ -1,11 +1,12 @@
 # cruzhacks frontend challenge
 
 made using react
+visit 
 
 ### prerequisites:
 install nodejs
 
-## clone repository
+### clone repository
 `git clone https://github.com/tejaspolu/cruzhacks-frontend-challenge.git`
 
 `cd cruzhacks-frontend-challenge`
