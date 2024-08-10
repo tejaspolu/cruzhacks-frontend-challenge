@@ -2,22 +2,22 @@
 
 made using react
 
-## prerequisites:
+### prerequisites:
 install nodejs
 
 ## clone repository
-### `git clone https://github.com/tejaspolu/cruzhacks-frontend-challenge.git`
+`git clone https://github.com/tejaspolu/cruzhacks-frontend-challenge.git`
 
-### `cd cruzhacks-frontend-challenge`
+`cd cruzhacks-frontend-challenge`
 
-## install dependencies
-### `npm install`
+### install dependencies
+`npm install`
 
-## run app
-### `npm start`
+### run app
+`npm start`
 
 runs the app in the development mode.\
-open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+open [http://localhost:3000](http://localhost:3000) to view it in your browser
 
 # process
 ## design
