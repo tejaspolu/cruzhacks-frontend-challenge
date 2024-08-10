@@ -1,7 +1,7 @@
 # cruzhacks frontend challenge
 
 made using react
-visit 
+visit [this link](https://cruzhacks-frontend-challenge.vercel.app/) to see deployed app
 
 ### prerequisites:
 install nodejs
@@ -12,7 +12,7 @@ install nodejs
 `cd cruzhacks-frontend-challenge`
 
 ### install dependencies
-`npm install`
+`npm install --legacy-peer-deps`
 
 ### run app
 `npm start`
